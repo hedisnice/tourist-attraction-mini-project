@@ -1,1 +1,3 @@
 ## react-tourist-attraction-mini-project
+
+This is a project for practicing using html css javascript react in all content of Front end developers. This project is about Presentation of tourist attractions By practicing pulling data from the database on the server side. If you want to download it to see an example. You need to cd to the server first, type npm install followed by npm start, then cd to the client and use npm install in the terminal and npm run dev afterwards. Thanks for looking at my code. If you have any suggestions or would like me to improve the code, please leave them on github. I'd love to hear them. and get your new ideas
