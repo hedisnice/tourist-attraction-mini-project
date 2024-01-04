@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  font-family: "Kanit", sans-serif;
+}
+
+.travel-app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  font-weight: 300;
+}
+
+.app-topic {
+  font-weight: 500;
+  color: rgb(114, 157, 238);
+  font-size: 52px;
+  margin: 20px;
+}
+
+a {
+  color: #8338ec;
+}
+
+a:hover {
+  color: #d81159;
+  text-decoration: none;
+}
+
+.search-section {
+  width: 60%;
+}
+
+.search-label {
+  font-weight: 400;
+  font-size: 25px;
+  color: #1a759f;
+  margin-bottom: 10px;
+}
+
+input {
+  width: 100%;
+  height: 30px;
+  border: none;
+  border-bottom: 2px solid #adb5bd;
+  margin-bottom: 40px;
+  text-align: center;
+  font-size: 18px;
+  outline: none;
+}
+
+.location-card {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.location-title {
+  font-weight: 400;
+  font-size: 24px;
+  color: #1c6e8c;
+}
+
+.location-card img {
+  height: 18vw;
+  width: 35%;
+  margin-right: 2vw;
+  border-radius: 5%;
+  box-shadow: 10px 10px 20px #bebebe;
+}
+
+.location-content {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  color: #03071e;
+}
+
+.tags-section {
+  width: 100%;
+  display: flex;
+}
+
+.tag {
+  margin-left: 5px;
+  margin-right: 5px;
+  text-decoration: underline;
+  color: #ef476f;
+}
+
+.additional-photos img {
+  height: 7vw;
+  width: 18%;
+  border-radius: 20px;
+  box-shadow: 4px 4px 7px #bebebe;
+}
+
+svg {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  color: #2a9d8f;
+}
+
+svg:hover {
+  color: #ee9b00;
+}
+
+.tag {
+  display: inline-block;
+  transition: background-color 0.3s;
+  text-decoration: none;
+}
+
+.tag:hover {
+  cursor: pointer;
+  color: #4361ee;
+}
